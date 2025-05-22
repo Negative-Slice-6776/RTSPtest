@@ -9,7 +9,7 @@ pip install opencv-python numpy pillow ntplib
 
 3 - open the script and enter your RTSP url on line 16 between the brackets
 
-4 - place an atomic stopwatch app (atomic clock for example) in front of your camera, start the script, press enter and you will get a screenshot and preview
+4 - place an atomic stopwatch app (atomic clock for example) in front of your camera, start the script, press any key and you will get a screenshot and preview
 
 
 
