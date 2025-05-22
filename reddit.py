@@ -106,7 +106,6 @@ def get_keypress():
         finally:
             termios.tcsetattr(fd, termios.TCSADRAIN, old)
 
-
 def capture_frame(ntp_1):
     with frame_lock:
         frame = latest_frame.copy() if latest_frame is not None else None
