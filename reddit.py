@@ -27,7 +27,7 @@ def read_frames():
     print("[INFO] Starting FFmpeg subprocess...")
     proc = subprocess.Popen([
         "ffmpeg",
-        
+        "-loglevel", "quiet",
         "-rtsp_transport", "udp",
         "-i", RTSP_URL,
         "-an",
